@@ -25,12 +25,12 @@ p 13 % 4
 # varible can be reassigned
 name = 'Samuel'
 lass_name = 'kiroko'
-Handsome = 'true'.freeze
+handsome = 'true'.freeze
 age = 24 + 1
 
 puts name
 puts name + ' ' + lass_name
-puts Handsome
+puts handsome
 puts age
 
 a = 1
