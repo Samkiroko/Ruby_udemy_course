@@ -6,16 +6,16 @@ p nums.last(6)
 p (1..100).first(7)
 
 # alphabetical ranges
-alphabet = "a".."z"
+alphabet = 'a'..'z'
 puts alphabet.last(8)
 # The size method on range
 number = 143..756
 p number.size
 # check the value exist within the range
-half_alphabet = "a".."m"
-puts half_alphabet.include?("k")
-puts half_alphabet.include?("A")
-puts half_alphabet.include?("N")
+half_alphabet = 'a'..'m'
+puts half_alphabet.include?('k')
+puts half_alphabet.include?('A')
+puts half_alphabet.include?('N')
 
 numbers = -14...79
 puts numbers.include?(32)
