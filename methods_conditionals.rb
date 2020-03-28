@@ -222,12 +222,12 @@ def calculator(a, b, operation = 'add')
   if operation == 'add'
     "The result of adding is #{add(a, b)}"
   elsif operation == 'substract'
-    "The result of substracting ✅ is #{substract(a, b)}"
+    "The result of substracting  is #{substract(a, b)}"
 
   elsif operation == 'multiply'
-    "The result of multiplying 🔊 is #{multiply(a, b)}"
+    "The result of multiplying  is #{multiply(a, b)}"
   else
-    "That's not a real math operation, genius! 😜"
+    "That's not a real math operation, genius! "
   end
 end
 p calculator(34_545, 14_665, 'substract')
