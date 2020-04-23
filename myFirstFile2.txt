@@ -1,0 +1,2 @@
+am here to learn ruby language 2
+am learning well 2no line break on .write option 3 
