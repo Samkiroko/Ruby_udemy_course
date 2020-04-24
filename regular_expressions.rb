@@ -95,4 +95,17 @@ p word
 puts '0713 356 169'.gsub!(' ', '')
 puts '(0713)-356 169'.gsub!(/[-\s\(\)]/, '')
 
-# rubular.com
+# rubular.com site to practice regular expression
+
+puts 5**5
+
+def findDigits(n)
+  sum = 0
+  n.to_s.split('').map(&:to_i).each do |digit|
+    sum += 1 if digit != 0 && n % digit.zero?
+  end
+  sum
+end
+
+p findDigits(111)
+p 111.to_s.split('')
