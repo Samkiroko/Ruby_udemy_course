@@ -22,3 +22,5 @@ float_methods = 3.14.method.sort
 
 puts fixnum_methods & float_methods
 puts fixnum_methods - float_methods
+
+# create class
